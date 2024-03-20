@@ -1,19 +1,19 @@
-# Ideal Weight Calculator Widget for WordPress
+# Propofol Dreams EleMarsh ABW Calculator
 
-Based on many famous equations, this free ideal weight calculator determines an optimal healthy body weight based on age, gender, and height.
+Step by step guide to using the EleMarsh calculator:
 
-![Ideal Weight Calculator Input Form](/assets/images/screenshot-1.png "Ideal Weight Calculator Input Form")
-![Ideal Weight Calculator Calculation Results](/assets/images/screenshot-2.png "Ideal Weight Calculator Calculation Results")
+(1) Enter patient details and desired Ce target
 
-## Installation
+(2) EleMarsh generates 3 outputs: Adjusted Body Weight, Induction CpT and Adjustment Bolus
 
-1. [Download](https://github.com/pub-calculator-io/ideal-weight-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
-2. Upload the /ideal-weight-calculator-master/ folder to the /wp-content/plugins/ directory.
-3. Activate the [Ideal Weight Calculator](https://www.calculator.io/ideal-weight-calculator/ "Ideal Weight Calculator Homepage") plugin through the "Plugins" menu in WordPress.
+(3) Use the Adjusted Body Weight as the Marsh input weight on your TCI pump
 
-## Usage
-* Add the shortcode `[ci_ideal_weight_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_ideal_weight_calculator(); ?>` to your template where you would like the Ideal Weight Calculator to appear.
+(4) Use the Induction CpT as your initial CpT setting. As soon as the bolus is given, drop the CpT down to your desired CeT. The Marsh model on your pump will now mimic the behaviour of the Eleveld model.
+
+## Reference
+
+Zhong G., Xu, X. General purpose propofol target-controlled infusion using the Marsh model with adjusted body weight. J Anesth. 2024.
+doi: 10.1007/s00540-024-03312-w
 
 ## Libraries in Use
 1. https://mathjs.org/
